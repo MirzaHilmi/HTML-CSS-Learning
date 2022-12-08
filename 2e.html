@@ -8,7 +8,17 @@
         height: 40;
         border-radius: 20px;
         cursor: pointer;
+        transition: background-color 0.15s, filter 0.15s;
     }
+
+    .apply-button:hover {
+        background-color: rgb(8, 82, 155);
+    }
+
+    .apply-button:active {
+        filter: brightness(80%);
+    }
+
     .save-button {
         background-color: white;
         border-color: rgb(10, 102, 194);
@@ -21,6 +31,16 @@
         border-radius: 20px;
         cursor: pointer;
         margin-left: 7px;
+        transition: background-color 0.15s, border-width 0.15s, filter 0.15s;
+    }
+
+    .save-button:hover {
+        background-color: rgb(210, 232, 255);
+        border-width: 2px;
+    }
+
+    .save-button:active {
+        filter: brightness(80%);
     }
 </style>
 
