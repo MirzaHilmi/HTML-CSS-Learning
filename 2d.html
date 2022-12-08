@@ -9,7 +9,17 @@
         height: 40;
         margin-right: 6px;
         cursor: pointer;
+        transition: filter 0.15s;
     }
+
+    .get-started-button:hover {
+        filter: brightness(85%);
+    }
+
+    .get-started-button:active {
+        filter: brightness(65%);
+    }
+
     .download-button {
         background-color: white;
         color: rgb(108, 117, 125);
@@ -21,6 +31,17 @@
         width: 110;
         height: 40;
         cursor: pointer;
+        transition: background-color 0.15s, border 0.15s, color 0.15s, filter 0.15s;
+    }
+
+    .download-button:hover {
+        background-color: rgb(108, 117, 125);
+        border: none;
+        color: white;
+    }
+
+    .download-button:active {
+        filter: brightness(85%);
     }
 </style>
 
