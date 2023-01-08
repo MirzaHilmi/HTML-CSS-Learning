@@ -1,0 +1,28 @@
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.worth {
+  font-size: 32px;
+  margin-bottom: 4px;
+}
+
+.currency {
+  font-size: 20px;
+  color: rgb(128, 128, 128);
+}
+
+.profit {
+  color: green;
+}
+
+.time {
+  margin-top: 4px;
+  font-size: 15px;
+}
+
+.loss {
+  color: rgb(177, 62, 58);
+}
