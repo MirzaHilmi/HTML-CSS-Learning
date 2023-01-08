@@ -1,0 +1,17 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.due-sales {
+  margin-top: 4px;
+  font-size: 14px;
+  color: rgb(223, 62, 50);
+  font-style: italic;
+}
