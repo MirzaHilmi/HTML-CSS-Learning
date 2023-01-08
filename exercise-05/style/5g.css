@@ -1,0 +1,32 @@
+p {
+  font-family: Arial;
+  font-size: 14px;
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+
+.username {
+  color: black;
+  font-weight: bold;
+}
+
+.userid {
+  color: gray;
+  font-weight: normal;
+}
+
+.date {
+  color: gray;
+  font-weight: normal;
+}
+
+.tweet {
+  color: black;
+  width: 450px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.tweet-special-char {
+  color: lightskyblue;
+}
