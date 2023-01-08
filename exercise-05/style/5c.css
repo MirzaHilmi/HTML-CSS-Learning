@@ -1,0 +1,45 @@
+p {
+  font-family: Verdana;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.course-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.course-level {
+  font-size: 14px;
+  color: rgb(109, 109, 109);
+  margin-bottom: 16px;
+}
+
+.course-about {
+  font-size: 14px;
+  width: 250px;
+  margin-bottom: 14px;
+}
+
+.start-button {
+  font-size: 10px;
+  background-color: rgb(56, 125, 34);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 12px;
+  padding-left: 12px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.start-button:hover {
+  opacity: 0.8;
+}
+
+.start-button:active {
+  opacity: 0.3;
+}
